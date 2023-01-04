@@ -226,7 +226,6 @@ function afkWork(id, type)
 					afkActive = false
 					if canRaid then canRaid = false end
 					if pay == 'money' then
-						print("money")
 						TriggerServerEvent('afk_jobs:reward', type, option.value)
 					elseif pay == 'item' then
 						TriggerServerEvent('afk_jobs:rewardItem', type, option.value)
