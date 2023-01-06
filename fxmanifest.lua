@@ -1,5 +1,6 @@
 fx_version 'cerulean'
-game 'gta5'
+game  'gta5'
+lua54  'yes'
 
 author 'Skeetzy#5765'
 description 'AFK Jobs Script'
