@@ -4,6 +4,7 @@ lua54  'yes'
 
 author 'Skeetzy#5765'
 description 'AFK Jobs Script'
+version '1.1'
 
 shared_scripts {
 	'config.lua',
