@@ -68,6 +68,14 @@ AddEventHandler('afk_jobs:rewardItem', function(type, id, partialPay)
 	serverNotify(source, Lang['item_reward']:format(amount, rewardLabel))
 end)
 
+if Config.RestartCancel then
+	AddEventHandler('txAdmin:events:scheduledRestart',function(eventData)
+		if eventData.secondsRemaining == (Config.RestartMinute * 60) then
+			TriggerClientEvent('afk_jobs:restartCancel', -1)
+		end
+	end)
+end
+
 
 -- Example Bundle Item - To use, uncomment the section by removing the --[[ above it and the ]] below it.
 -- Make sure to check the [items] folder for the necessary SQL file for your database and item images for your inventory script.
