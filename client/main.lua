@@ -317,6 +317,14 @@ AddEventHandler('afk_jobs:raidedCl', function()
 	end
 end)
 
+RegisterNetEvent('afk_jobs:restartCancel')
+AddEventHandler('afk_jobs:restartCancel', function()
+	if afkActive then
+		TriggerEvent('mythic_progbar:client:cancel')
+		clientNotify(Lang['restart'])
+	end
+end)
+
 function Round(number, places)
     local multiplier = 10^(places)
     return math.floor(number * multiplier + 0.5) / multiplier
