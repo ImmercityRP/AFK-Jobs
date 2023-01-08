@@ -726,4 +726,5 @@ Lang = {
 	['raided'] = '~b~LSPD~s~ has ~r~Raided~s~ the ~p~AFK Hacker\'s Den~s~ and cut your work short!',
 	['money_reward'] = 'You received ~g~$%s~s~ ~r~%s~s~ for your work!',
 	['item_reward'] = 'You received ~g~%sx~s~ ~r~%s~s~ for your work!',
+	['restart'] = 'Server is restarting so all active AFK Jobs have been stopped!',
 }
