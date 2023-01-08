@@ -16,6 +16,7 @@ Comes pre-configured with 3 different locations/job types, a total of 35 job spo
 * Animations + Prop Support
 * Money **OR** Item Payouts w/ Partial Payment Support
 * Partial Payment Penalty Option
+* Cancel Active Jobs during Restarts
 * Auto-Heal Hunger/Thirst/Stress w/ Frequency Setting
 * All Text/Notification Labels in Config
 * Client/Server Notification Script editable in Config
