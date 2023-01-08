@@ -607,49 +607,49 @@ Config.Jobs = {
 		amount = 84500, 
 	},
 	-- Legal Type
-	[1] = {
+	[9] = {
 		time = 5 * 60 * 1000,
 		text = '5 Mins',
 		type = 'legal',
 		amount = 1666,
 	},
-	[2] = {
+	[10] = {
 		time = 15 * 60 * 1000,
 		text = '15 Mins',
 		type = 'legal',
 		amount = 4750, 
 	},
-	[3] = {
+	[11] = {
 		time = 30 * 60 * 1000,
 		text = '30 Mins',
 		type = 'legal',
 		amount = 9000, 
 	},
-	[4] = {
+	[12] = {
 		time = 60 * 60 * 1000,
 		text = '1 Hour',
 		type = 'legal',
 		amount = 17000, 
 	},
-	[5] = {
+	[13] = {
 		time = 2 * 60 * 60 * 1000,
 		text = '2 Hours',
 		type = 'legal',
 		amount = 33000, 
 	},
-	[6] = {
+	[14] = {
 		time = 3 * 60 * 60 * 1000,
 		text = '3 Hours',
 		type = 'legal',
 		amount = 48000, 
 	},
-	[7] = {
+	[15] = {
 		time = 4 * 60 * 60 * 1000,
 		text = '4 Hours',
 		type = 'legal',
 		amount = 62000, 
 	},
-	[8] = {
+	[16] = {
 		time = 5 * 60 * 60 * 1000,
 		text = '5 Hours',
 		type = 'legal',
